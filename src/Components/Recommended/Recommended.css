@@ -1,0 +1,37 @@
+.r-container{
+    justify-content: center;
+    z-index: 3;
+}
+.recommended-flex{
+    display: flex;
+    margin-left: 20rem;
+}
+
+.recommended-title{
+    margin-left: 20rem;
+    margin-bottom: 20px;
+    margin-top: 8rem;
+    font-size: 20px;
+}
+
+.btns{
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: 0.6px solid grey;
+    border-radius: 5px;
+    color: rgb(58, 54, 54);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+    .recommended-flex{
+        margin-left: 12rem;
+    }
+
+    .recommended-title{
+        margin-left: 12rem;
+    }
+
+}

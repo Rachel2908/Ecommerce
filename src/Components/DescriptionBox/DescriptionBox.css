@@ -1,0 +1,39 @@
+.descriptionbox{
+    margin: 100px 170px;
+}
+
+.description-navigator{
+    display: flex;
+}
+
+.descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    width: 200px;
+    height: 70px;
+    border: 1px solid whitesmoke;
+}
+
+.descriptionbox-nav-box .fade{
+    background: rgb(212, 209, 209);
+    
+}
+
+.descriptionbox-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid whitesmoke;
+    padding:40px;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 1024px){
+    .descriptionbox{
+        margin: 50px 70px;
+    }
+    
+}

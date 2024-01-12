@@ -1,0 +1,168 @@
+#hero{
+    background-color: rgb(27, 10, 0);
+    height: 90vh;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    color: white;
+}
+
+.hero-left{
+    position: relative;
+    top: 10rem;
+    padding: 0 2rem;
+    
+}
+
+.hero-left h1{
+    font-size: 50px;
+}
+
+.hero-left h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    
+}
+
+.hero-left p{
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.btn{
+    font-weight: 600;
+    background-color: white;
+    color: rgb(27, 10, 0);
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background:transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    overflow: hidden;
+}
+
+
+.hero-right{
+    
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+    
+}
+
+.hero-right img {
+    width: 440px;
+    height: 465px;
+}
+
+@media  screen and (max-width: 1024px) {
+    .hero-right img {
+        width: 300px;
+        height: 365px;
+    }
+
+    #hero{
+        height: 60vh;
+    }
+
+    .hero-left h1{
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    
+    .hero-left h2{
+        text-transform: uppercase;
+        font-size: 40px;
+        
+    }
+
+    .hero-left{
+        padding: 0 1rem;
+        margin-left: 2rem;
+    }
+
+    .hero-right{
+        height: 40rem;
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        
+    }
+    
+}
+
+@media  screen and (max-width: 600px) {
+    .hero-right img {
+        width: 100px;
+        height: 165px;
+    }
+
+    #hero{
+        height: 60vh;
+        width: 100%;
+    }
+
+    .hero-left h1{
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    
+    .hero-left h2{
+        text-transform: uppercase;
+        font-size: 40px;
+        
+    }
+
+    .hero-left{
+        padding: 0 1rem;
+        margin-left: 2rem;
+    }
+
+    .hero-right{
+        height: 40rem;
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        
+    }
+    
+}
+@media  screen and (max-width: 600px) {
+    .hero-right img {
+        width: 150px;
+        height: 155px;
+    }
+
+    #hero{
+        height: 50vh;
+        width: 100%;
+    }
+    .hero-left p{
+        font-style: italic;
+    }
+
+    
+.hero-left h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.hero-right{
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    
+}
+    
+}

@@ -1,0 +1,153 @@
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+.tn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background: rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 10px 20px 10px rgb(255, 255, 255);
+}
+
+h3{
+    font-size: 1.5rem ;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: rgb(27, 10, 0);
+}
+
+.search-box:focus{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.search-box{
+    width: 555px;
+    border: 1px solid rgb(163, 160, 160);
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+}
+
+
+
+.search-box input{
+    width: 100%;
+    display: block;
+    border:none;
+    outline: none;
+    
+}
+
+
+.search-icon{
+    color:rgb(27, 10, 0);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.nav-login-cart{
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 1rem;
+}
+
+.nav-login-cart a{
+    font-size: 1rem;
+    color: rgb(27, 10, 0);
+    position: relative;
+}
+
+.nav-login-cart a:hover{
+    color: rgb(219, 116, 57);
+}
+
+.nav-login-cart a:focus::after{
+    color: rgb(219, 116, 57);
+}
+
+.nav-login-cart .count{
+    position: absolute;
+    font-size: 0.5rem;
+    top: -0.34rem;
+    right: -0.5rem;
+    color:rgb(255, 255, 255);
+    background-color:rgb(209, 0, 0);
+    border-radius: 25px;
+    padding: 1px 4px;
+}
+
+.nav-login-cart button{
+    font-weight: 600;
+    background-color: rgb(255, 253, 253);
+    color: rgb(27, 10, 0);
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.2s ease-in-out;
+} 
+
+.nav-login-cart button:hover{
+    background-color: rgb(27, 10, 0);
+    color: white;
+}
+
+.bn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 10, 0);
+    height: 3rem;
+}
+
+.nav-lists {
+    display: flex;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    z-index: 111;
+    padding: 0.5rem;
+    list-style: none;
+}
+
+
+
+.nav-lists li a{
+    font-weight: 400;
+    font-size: 1rem;
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-lists li a::after{
+    content: '';
+    position: absolute;
+    bottom: -0.2rem;
+    left: 0;
+    height: 0.15rem;
+    width: 0%;
+    border-radius: 10px;
+    background: white;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-lists li a:hover::after,
+.nav-lists li a:focus::after{
+    width: 100%;
+}
+
+@media  screen and (max-width: 700px) {
+    
+}
+

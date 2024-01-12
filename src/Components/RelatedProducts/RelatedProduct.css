@@ -1,0 +1,34 @@
+.relatedProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+
+.relatedProducts h1{
+    color: rgb(27, 10, 0);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.relatedProducts hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: rgb(27, 10, 0);
+}
+
+.relatedproducts-items{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1024px){
+    .relatedproducts-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
