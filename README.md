@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-Please run the code as http://localhost:3000 my code got destructured with pushing into github 
+Start Navigating through homepage
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
